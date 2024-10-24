@@ -1,0 +1,709 @@
+<html>
+<head>
+    <title>Computer Maintenance</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <style>
+        body {
+            font-family: times, sans-serif;
+            background-color: #000080;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000080;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        nav ul li:hover {
+            background-color: #1abc9c;
+        }
+
+        .cart-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        section {
+            background-color: #000080;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #000080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: -30;
+            width: 100%;
+        }
+
+        .menu-item:hover {
+            background-color: #1abc9c;
+        }
+    </style>
+
+    <script>
+        function mostrarSeccion(id) {
+            let secciones = document.querySelectorAll('section');
+            secciones.forEach(seccion => seccion.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+        }
+
+        window.onload = function() {
+            mostrarSeccion('JEJE');
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="logo.png" width=150 height=150>
+            Mantenimiento Preventivo y Correctivo de Computadoras
+            <img src="insal.jpg" width=150 height=150>
+        </h1>
+        <h3>(¡Cuida hoy tus equipos, asegura su futuro!)</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="mostrarSeccion('JEJE')">Inicio</a></li>
+            <li><a href="#" onclick="mostrarSeccion('Surgio')">¿Comó surgió?</a></li>
+            <li><a href="#" onclick="mostrarSeccion('Servicios')">Servicios</a></li>
+            <li><a href="#" onclick="mostrarSeccion('video')">Galería de servicios</a></li>
+            <li><a href="#" onclick="mostrarSeccion('Contactos')">Contáctos</a></li>
+            <li><a href="#" onclick="mostrarSeccion('Ubicación')">Ubicación</a></li>
+            <li><a href="#" onclick="mostrarSeccion('nosotros')">Sobre nosotros</a></li>
+            <li><a href="#" onclick="mostrarSeccion('carrito')">
+             <img src="carrito.png" alt="Carrito de compras" class="cart-icon">
+            </a></li>
+        </ul>
+    </nav>
+
+    <section id="JEJE">
+       <p><font size="5" color="white">
+              Nuestra empresa se especializa en mantenimiento preventivo y correctivo de computadoras, ofreciendo soluciones efectivas para problemas como Eliminación de polvo y residuos en ventiladores, disipadores y demás componentes internos. Reemplazo o limpieza de pasta térmica. Formateo de equipos. Reinstalación de programas problemáticos. No solo corregimos los problemas existentes, sino que también implementamos medidas de prevención para evitar futuras fallas que puedan afectar el rendimiento de los equipos. Nuestros servicios incluyen la organización del directorio raíz, eliminación de registros, Copia de seguridad (backup) de datos. Garantizando que las computadoras de nuestros clientes se mantengan en óptimas condiciones a largo plazo.
+            </p></font>
+  
+<table align="center"border="+2" bgcolor="black">
+<tr>
+<td><img src="brandon1.jpg" widht=350 height=350></td>
+<td><img src="brandon2.jpg" widht=350 height=350></td>
+<td><img src="manu3.jpg" width=255 height=350></td>
+<td><img src="chino5.jpg" width=270 height=350></td>
+</tr>
+<tr>
+</tr>
+</table>
+</section>
+
+    <section id="Surgio">
+        <table width="100%" border="0">
+    <tr>
+        <td width="70%" valign="top">
+            <p><font size="5" color="white">
+               Nuestra empresa surgio en base a la creciente demanda de servicios técnicos especializados en el área de informática, observando la falta de servicios personalizados para el mantenimiento de computadoras en sectores públicos y privados
+Empezando como una pequeña idea de negocio el año 2023, logramos avances sobre lo básico y primordial del mantenimiento de una computadora.
+Como empresa, nuestro deber es proporcionar soluciones efectivas de mantenimiento preventivo y correctivo de equipos informáticos, garantizando el máximo rendimiento y una mayor durabilidad de los sistemas.
+            </p></font>
+        </td>
+        <td width="50%" valign="top">
+            <img src="Brandon6.jpg" widht=50 height=300 width="80%">
+        </td>
+    </tr>
+</table>
+</section>
+
+    <section id="Servicios">
+               <table width="100%" border="0">
+<center><p><font size="7" color="#DCDCDC">Te ofrecemos estos servicios para mantener tu ordenador óptimo.
+ </p></font></center>
+
+    <tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Organización del directorio raíz:
+ </p></font>
+ <p><font size="5" color="white">
+ Consiste en estructurar y ordenar las carpetas principales del sistema para facilitar el acceso a archivos importantes, mejorar el rendimiento y evitar la acumulación de archivos innecesarios.            </p></font>
+        </td>
+        <td width="50%" valign="top">
+            <img src="raiz.jpg" width=250 height=170 ">
+        </td>
+    </tr>
+
+ <tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Eliminación de registros:
+ </p></font>
+ <p><font size="5" color="white">
+ Se trata de limpiar el registro del sistema, eliminando entradas obsoletas o corruptas que puedan ralentizar el rendimiento o causar errores en el equipo.            </p></font>
+        </td>
+        <td width="50%" valign="top">
+            <img src="registros.jpg" width=250 height=170 ">
+        </td>
+    </tr>
+
+<tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Copia de seguridad (backup) de datos: 
+ </p></font>
+ <p><font size="5" color="white">
+Proceso de duplicar y almacenar datos importantes en otro lugar (nube, disco externo) para evitar su pérdida en caso de fallos o errores.</p></font>
+        </td>
+        <td width="50%" valign="top">
+            <img src="copia.jpg" width=250 height=170 ">
+        </td>
+    </tr>
+
+<tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Eliminación de polvo en componentes internos: 
+ </p></font>
+ <p><font size="5" color="white">
+Implica limpiar a fondo los componentes internos del equipo para mejorar la ventilación y evitar el sobrecalentamiento.</p></font>
+        </td>
+        <td width="50%" valign="top">
+            <center><img src="polvo.jpg" width=180 height=180 "></center>
+        </td>
+    </tr>
+
+<tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Reemplazo o limpieza de pasta térmica:
+ </p></font>
+ <p><font size="5" color="white">
+Se retira la pasta térmica vieja entre el procesador y el disipador para aplicar una nueva, lo que mejora la disipación de calor y evita daños por temperaturas altas.</p></font>
+        </td>
+        <td width="50%" valign="top">
+            <center> <img src="pasta.jpg" width=180 height=180 "></center>
+        </td>
+    </tr>
+
+<tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Formateo de equipos: 
+ </p></font>
+ <p><font size="5" color="white">
+Procedimiento para borrar todos los datos de un disco duro y reinstalar el sistema operativo, restaurando el equipo a su estado inicial.</p></font>
+        </td>
+        <td width="50%" valign="top">
+            <img src="formateo.jpg" width=240 height=170 ">
+        </td>
+    </tr>
+
+<tr>
+<td width="80%" valign="top"><p><font size="6" color="#FFD700 ">•Reinstalación de programas problemáticos:  </p></font>
+ <p><font size="5" color="white">
+Desinstalar y volver a instalar software que presenta errores o fallos recurrentes para solucionar problemas de funcionamiento.
+
+<p><A HREF="https://docs.google.com/forms/d/e/1FAIpQLScpLoNt8YXfSYHBDaB9Oy1EJzSTOS5EznAK4aG6sp4U_cR7bA/viewform?usp=sf_link" style="color:  #00BFFF ; text-decoration: none";</A>Entra aquí para reservar tu mantenimiento</p>
+
+
+        </td>
+        <td width="50%" valign="top">
+            <img src="reinicio.jpg" width=250 height=170 ">
+        </td>
+    </tr>
+
+ 
+</table>
+</section>
+
+  
+
+<section id="Contactos">
+        <table width="100%" border="0"> 
+    <tr>
+        <td width="15%" valign="top">
+            <p><font size="7" color="FFD700">Instagram</font></p>
+            <p><font size="5" color="white">
+                <p><a href="https://www.instagram.com/mnt.computersv" style="color: white; text-decoration: none;">@mnt.computersv</a>.</p>
+            </font></p>
+        </td>
+        <td width="10%" valign="top">
+            <img src="ig.jpg" width="80%" height="100">
+        </td>
+
+        <td width="15%" valign="top">
+            <p><font size="7" color="#FFD700">WhatsApp</font></p>
+            <p><font size="5" color="white">
+                <p><a href="https://wa.me/50374867646" style="color: white; text-decoration: none;">7486-7646</a></p>
+            </font></p>
+        </td>
+        <td width="10%" valign="top">
+            <img src="wh.jpg" width="80%" height="100">
+        </td>
+
+        <td width="15%" valign="top">
+            <p><font size="7" color="#FFD700">Gmail</font></p>
+            <p><font size="4" color="white">
+                <p><a href="https://mail.google.com/mail/u/3/?pli=1#inbox" style="color: white; text-decoration: none;">computermantenance@gmail.com</a>.</p>
+            </font></p>
+        </td>
+        <td width="10%" valign="top">
+            <img src="gm.jpg" width="80%" height="100">
+        </td>
+
+        <td width="15%" valign="top">
+            <p><font size="7" color="FFD700">YouTube</font></p>
+            <p><font size="5" color="white">
+             <p><a href="https://www.youtube.com/@ComputerMantenance" style="color: white; text-decoration: none;">Computer Maintennce</a>.</p>
+        </td>
+        <td width="10%" valign="top">
+            <img src="yo.jpg" width="100%" height="100">
+        </td>
+    </tr>
+</table>
+</section>
+
+    <section id="Ubicación">
+        <table width="100%" border="0">
+    <tr>
+               <td width="10%" valign="top">
+<p><A HREF="https://www.google.com/search?q=plaza+calle+la+mascota&sca_esv=9665476702a22ff3&rlz=1C1ALOY_esSV1032SV1032&biw=1366&bih=599&tbm=lcl&sxsrf=ADLYWIIllx2dZrqFeXJgw0CVJoO0QBEd5g%3A1729176397296&ei=TSMRZ_jmEf2SwbkPq7KgsQI&ved=0ahUKEwi4waiH1JWJAxV9STABHSsZKCYQ4dUDCAk&uact=5&oq=plaza+calle+la+mascota&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIhZwbGF6YSBjYWxsZSBsYSBtYXNjb3RhSDRQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAJgCAKACAJgDAIgGAZIHAKAHAA&sclient=gws-wiz-localn"><img src="ubicacion.jpg" widht=50 height=250 width="80%"></A>.</p>
+          
+        </td>
+<td width="15%" valign="top">
+            <p><font size="7" color="FFD700">
+               Nos ubicamos en:
+            </p></font>
+<p><font size="5" color="white">
+               Departamento San Salvador, calle la mascota, colonia la mascota 
+            </p></font>
+        </td>
+
+        </table>
+</section>
+
+    <section id="nosotros">
+        <table width="100%" border="0">
+    <tr>
+        <td width="30%" valign="top">
+            <p><font size="6" color="FFD700">
+            Orlando Rodriguez
+            <p><font size="5" color="white">
+            Responsabilidad
+            <p><font size="5" color="white">
+            Liderazgo
+
+             </p></font>
+<p><font size="5" color="white">
+        <p><a href="https://www.instagram.com/__rodriguez_07/" style="color: #00BFFF ; text-decoration: none;">@__rodriguez_07</a></p>
+       <p><a href="https://wa.me/50378640176" style="color: #00BFFF; text-decoration: none;">WhatsApp</a></p> 
+        </p></font>
+        </td>
+        <td width="22%" valign="top">
+            <img src="orlandoia.jpg" width=250 height=270 width="80%">
+        </td>
+
+    <td width="30%" valign="top">
+            <p><font size="6" color="#FFD700">
+               Orlando Cortez
+            </p></font>
+<p><font size="5" color="white">
+            Administración de base de datos
+            <p><font size="5" color="white">
+           Comunicación efectiva
+
+<p><font size="5" color="white">
+              <p><a href="https://www.instagram.com/orlando_cortez7/" style="color: #00BFFF; text-decoration: none;">@orlando_cortez7</a></p>
+             <p><a href="https://wa.me/50378337908" style="color: #00BFFF; text-decoration: none;">WhatsApp</a></p>
+            </p></font>
+        </td>
+        <td width="20%" valign="top">
+            <img src="chinoia.jpg"  width=250 height=250 width="80%">
+        </td>
+
+        </table>
+
+    
+<table width="100%" border="0">
+    <tr>
+        <td width="30%" valign="top">
+            <p><font size="6" color="FFD700">
+           Manuel Diaz
+            <p><font size="5" color="white">
+           Habilidades técnicas
+            <p><font size="5" color="white">
+           Resolución de problemas
+
+             </p></font>
+<p><font size="5" color="white">
+        <p><a href="https://www.instagram.com/manuudiaz14/" style="color: #00BFFF; text-decoration: none;">@manuudiaz14
+</a></p>
+        <p><a href="https://wa.me/50374867646" style="color: #00BFFF; text-decoration: none;">WhatsApp</a></p>
+        </p></font>
+        </td>
+        <td width="22%" valign="top">
+            <img src="manuia.jpg"  width=250 height=250 width="80%">
+        </td>
+
+    <td width="30%" valign="top">
+            <p><font size="6" color="#FFD700">
+              Andres Francisco 
+            </p></font>
+             <p><font size="5" color="white">
+            Trabajo en equipo
+            <p><font size="5" color="white">
+            Pensamiento critico
+
+<p><font size="5" color="white">
+           <p><a href="https://www.instagram.com/leiva_033/" style="color: #00BFFF; text-decoration: none;">@leiva_033
+</a></p>
+            <p><a href="https://wa.me/50375048377" style="color: #00BFFF; text-decoration: none;">WhatsApp</a></p>
+            </p></font>
+        </td>
+        <td width="20%" valign="top">
+            <img src="andresia.jpg"  width=240 height=260 width="80%">
+        </td>
+
+        
+  </table>
+
+<table width="100%" border="0">
+    <tr>
+        <td width="30%" valign="top">
+            <p><font size="6" color="FFD700">
+            Alberto Alemán
+            <p><font size="5" color="white">
+           Gestión del tiempo
+            <p><font size="5" color="white">
+            Adaptabilidad
+
+             </p></font>
+<p><font size="5" color="white">
+        <p><a href="https://www.instagram.com/aleman14_/" style="color: #00BFFF; text-decoration: none;">@aleman14_
+</a></p>
+       <p><a href="https://wa.me/50376738251" style="color: #00BFFF; text-decoration: none;">WhatsApp</a></p>
+        </p></font>
+        </td>
+        <td width="22%" valign="top">
+            <img src="betoia.jpg"  width=230 height=270 width="80%">
+        </td>
+
+    <td width="30%" valign="top">
+            <p><font size="6" color="#FFD700">
+               Brandon Murcia
+            </p></font>
+             <p><font size="5" color="white">
+            Negociación
+            <p><font size="5" color="white">
+           Gestión del estrés
+
+<p><font size="5" color="white">
+             <p><a href="https://www.instagram.com/gabo.ma707/" style="color: #00BFFF; text-decoration: none;">@gabo.ma707
+</a></p>
+             <p><a href="https://wa.me/50361401602" style="color: #00BFFF; text-decoration: none;">WhatsApp</a></p>
+            </p></font>
+        </td>
+        <td width="20%" valign="top">
+            <img src="brandonia.jpg"  width=250 height=250  width="80%">
+        </td>
+
+        
+  </table>
+  </table>
+ </section>
+
+       <section id="carrito"> 
+      <center><p><font size="7" color="FFD700"><p>Servicios disponibles</a></p></center>
+  <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="50%" valign="top">
+             <p><font size="5" color="white">
+             <div class="servicio">
+            <h3><font size="5" color="white"><p>1-Organización del directrio raiz</h3>
+            <img src="raiz.jpg" width=300 height=200>
+<p><font size="5" color=" #00BFFF"> <p>Precio: $60</p>
+            <button onclick="agregarAlCarrito('Organización del directrio raiz', 60)">Agregar al Carrito</button>
+        </div>
+        </td>
+
+        <td width="50%" valign="top">
+           <p><font size="5" color="white">
+           <div class="servicio">
+            <h3>2-Eliminación de registros</h3>
+             <img src="registros.jpg" width=300 height=200>
+           <p><font size="5" color=" #00BFFF"> <p><font size="5" color=" #00BFFF">  <p>Precio: $70</p>
+            <button onclick="agregarAlCarrito('Eliminación de registros', 70)">Agregar al Carrito</button>
+        </div>
+        </td>
+    </tr>
+</table>
+
+   
+  <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="50%" valign="top">
+             <p><font size="5" color="white">
+              <div class="servicio">
+            <h3>3-Copia de seguridad (backup) de datos</h3>
+             <img src="copia.jpg" width=300 height=200>
+            <p><font size="5" color=" #00BFFF"> <p>Precio: $80</p>
+            <button onclick="agregarAlCarrito('Copia de seguridad (backup) de datos', 80)">Agregar al Carrito</button>
+        </div>
+        </td>
+
+        <td width="50%" valign="top">
+           <p><font size="5" color="white">
+           <div class="servicio">
+            <h3>4-Formateo de equipos.</h3>
+             <img src="formateo.jpg" width=300 height=200>
+            <p><font size="5" color=" #00BFFF"> <p>Precio: $125</p>
+            <button onclick="agregarAlCarrito('Formateo de equipos.', 125)">Agregar al Carrito</button>
+        </div>
+        </td>
+    </tr>
+</table>
+
+ <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="50%" valign="top">
+             <p><font size="5" color="white">
+             <div class="servicio">
+            <h3>5-Reemplazo o limpieza de pasta térmica.</h3>
+             <img src="pasta.jpg" width=300 height=300>
+            <p><font size="5" color=" #00BFFF"> <p>Precio: $50</p>
+            <button onclick="agregarAlCarrito('Reemplazo o limpieza de pasta térmica.', 50)">Agregar al Carrito</button>
+        </div>
+        </td>
+
+        <td width="50%" valign="top">
+           <p><font size="5" color="white">
+           <div class="servicio">
+            <h3>6-Eliminación de polvo en componentes internos</h3>
+              <img src="polvo.jpg" width=300 height=300>
+            <p><font size="5" color=" #00BFFF"> <p>Precio: $90</p>
+            <button onclick="agregarAlCarrito('Eliminación de polvo en componentes internos', 90)">Agregar al Carrito</button>
+        </div>
+
+        </td>
+    </tr>
+</table>
+
+
+<center><table width="100%" border="0"  align="center"border="+2" bgcolor="black"></center>
+    <tr>
+        <td width="50%" valign="top">
+             <p><font size="5" color="white">
+             <div class="servicio">
+            <h3>7-Reinstalación de programas problematicos.</h3>
+             <img src="reinicio.jpg" width=300 height=200>
+             <p><font size="5" color=" #00BFFF"> <p>Precio: $40</p>
+            <button onclick="agregarAlCarrito('Reinstalación de programas problematicos.', 40)">Agregar al Carrito</button>
+        </div>
+        </td>
+
+ <td width="50%" valign="top">
+                    <div class="carrito">
+           <p><font size="7" color="#FFD700"><p>Carrito de Compras</a></p>
+            <table id="carritoTabla">
+                <thead>
+                    <tr>
+                        <th><font size="6" color="white">Servicio</th>
+                        <th><font size="6" color="white">Precio</th>
+                        <th><font size="6" color="white">Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="carritoVacio">
+                          <td colspan="3"><font size="5" color="white">El carrito está vacío</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><font size="6" color="#00BFFF"><p>Total: $<span id="totalCarrito">0</span></a></p>
+
+            <button class="compra" onclick="realizarCompra()">Comprar</button>
+        </div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+        <script>
+            let carrito = [];
+            let total = 0;
+
+            function agregarAlCarrito(servicio, precio) {
+                carrito.push({ servicio, precio });
+                total += precio;
+                actualizarCarrito();
+            }
+
+            function eliminarDelCarrito(indice) {
+                total -= carrito[indice].precio;
+                carrito.splice(indice, 1);
+                actualizarCarrito();
+            }
+
+            function actualizarCarrito() {
+                const carritoTabla = document.getElementById('carritoTabla').getElementsByTagName('tbody')[0];
+                carritoTabla.innerHTML = '';
+                
+                if (carrito.length === 0) {
+                    carritoTabla.innerHTML = '<tr id="carritoVacio"><td colspan="3"><font color="white">El carrito está vacío</font></td></tr>';
+                } else {
+                    carrito.forEach((item, index) => {
+                        let fila = carritoTabla.insertRow();
+                        let celdaServicio = fila.insertCell(0);
+                        let celdaPrecio = fila.insertCell(1);
+                        let celdaAccion = fila.insertCell(2);
+                        
+                        celdaServicio.textContent = item.servicio;
+                        celdaPrecio.textContent = `$${item.precio}`;
+                        celdaAccion.innerHTML = `<button onclick="eliminarDelCarrito(${index})">Eliminar</button>`;
+                        
+                        // Cambiar el color del texto a blanco
+                        celdaServicio.style.color = "white";
+                        celdaPrecio.style.color = "white";
+                        celdaAccion.style.color = "white";
+                    });
+                }
+
+                document.getElementById('totalCarrito').textContent = total;
+            }
+
+            function realizarCompra() {
+                if (carrito.length === 0) {
+                    alert('El carrito está vacío. Agrega algún servicio para continuar.');
+                } else {
+                    alert(`Compra realizada. Total a pagar: $${total}`);
+                    carrito = [];
+                    total = 0;
+                    actualizarCarrito();
+                }
+            }
+        </script>
+    </section>
+
+
+    
+
+  <section id="video">
+         <center><p><font size="7" color="#FFD700">
+           Mantenimientos preventivos </body></p></center>
+
+
+
+    <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="60%" valign="top">
+            <p><font size="6" color="white">
+            Organización de directorio raiz     
+         </p></font>
+<video src="videodirectorio.mp4" controls width=550 height=300></video>
+        </td>
+        
+     <td width="40%" valign="top">
+          <center><p><font size="6" color="white">
+           Eliminación de registros   
+         </p></font></center>
+
+<video src="videoregistros.mp4" controls width=500 height=300 ></video>
+        </td>
+        </tr>
+
+ <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="60%" valign="top">
+            <p><font size="5" color="white">
+           Copia de seguridad (backup) de datos    
+         </p></font>
+<video src="videocopia.mp4" controls width=550 height=300></video>
+        </td>
+        
+     <td width="40%" valign="top">
+            <center><p><font size="5" color="white">
+           Eliminación de polvo en componentes internos   
+         </p></font></center>
+<video src="videopolvo.mp4" controls width=500 height=300 ></video>
+        </td>
+        </tr>
+
+    <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="60%" valign="top">
+            <p><font size="6" color="white">
+            Reemplazo o limpieza de pasta térmica.     
+         </p></font>
+<video src="videopasta.mp4" controls width=550 height=300></video>
+        </td>
+        
+     <td width="40%" valign="top">
+            <center><p><font size="6" color="white">
+          Formateo de equipos  
+         </p></font></center>
+<video src="videoformateo.mp4" controls width=500 height=300 ></video>
+        </td>
+        </tr>
+
+<center><p><font size="7" color="#FFD700">
+           Mantenimientos Correctivos</body></p></center>
+
+ <table width="100%" border="0"  align="center"border="+2" bgcolor="black">
+    <tr>
+        <td width="60%" valign="top">
+            <p><font size="5" color="white">
+           Reinstalación de programas problematicos    
+         </p></font>
+<video src="videoreinstalacion.mp4" controls width=550 height=300></video>
+        </td>  
+
+<td width="40%" valign="top">
+            <center><p><font size="5" color="white">
+          logo de nuestros servicios    
+         </p></font></center>
+<center><img src="logoservicios.png" width=350 height=300></center>
+        </td>    
+        </tr>
+    </section>
+
+</body>
+</html>
